@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f7f8f8, #acbb78);
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 800px;
+            margin: 50px auto;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .benefits {
+            margin-top: 20px;
+        }
+        .benefits ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .benefits li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #eaf4fc;
+            border-left: 5px solid #2196F3;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, {{ username }}! 👋</h2>
+        <p>You have successfully logged into your personalized dashboard.</p>
+
+        <div class="benefits">
+            <h3>🌟 Explore the Power of Generative AI (GenAI)</h3>
+            <p>Generative AI is transforming industries by enabling machines to create content, solve problems, and automate tasks with creativity and intelligence. Here's what you can do with it:</p>
+            <ul>
+                <li><strong>Generate Content:</strong> Automatically create text, images, music, or even code.</li>
+                <li><strong>Enhance Productivity:</strong> Use GenAI to summarize documents, automate reports, and more.</li>
+                <li><strong>Boost Creativity:</strong> Brainstorm ideas, write stories, and design visuals using AI tools.</li>
+                <li><strong>Personalize Experiences:</strong> Deliver custom user experiences using GenAI-driven systems.</li>
+                <li><strong>Support Decision-Making:</strong> Analyze patterns and generate insights for better business strategies.</li>
+            </ul>
+        </div>
+
+        <p style="margin-top: 30px;">Stay tuned for exciting updates and tools powered by GenAI right here in your dashboard!</p>
+    </div>
+</body>
+</html>
